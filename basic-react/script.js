@@ -1,3 +1,5 @@
-var myDiv = <div className="big">I AM A BIG DIV</div>
+var text = 'I am a BIG div';
+
+var myDiv = <div className="big">{text}</div>
     
 ReactDOM.render(myDiv, document.getElementById('app'))
